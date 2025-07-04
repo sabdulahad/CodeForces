@@ -16,9 +16,7 @@ int main()
         }
     }
 
-    steps = ((i1>2)?(i1-2):(2-i1)) + ((j1>2)?(j1-2):(2-j1));
+    steps = abs(i1-2) + abs(j1-2);
     cout<<steps;
-    // trick ::-> loop er vitore i ke sudden modify; 😁
-    
     
 }
